@@ -1,31 +1,27 @@
 
 
-body {
-    padding-left: 15px;
-}
 
 .page-header {
-    background-color: antiquewhite;
+    font-family: 'Barrio';
+    background-color: teal;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+    text-align: center;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #bf000d;
+    color: #bf3a70;
     font-size: 36pt;
     text-decoration: none;
 }
 
 .content {
-    margin-left: 40px;
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Barrio';
+    margin-left: 50px;
 }
 
 .date {
     color: #828282;
+    margin-top: 20px;
 }
 
 .save {
@@ -45,6 +41,12 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    font-family: 'Happy Monkey';
+}
+
+.post-title {
+
+    font-family: 'Bowlby One';
 }
 
 .post h1 a, .post h1 a:visited {
