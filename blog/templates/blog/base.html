@@ -1,4 +1,17 @@
 {% load staticfiles %}
+<script>
+  function blink()
+  {
+    var div = document.getElementById("blogondjango");
+    if ( div.style.visibility == 'hidden') {
+      div.style.visibility = 'visible';
+    }
+    else {
+      div.style.visibility = 'hidden';
+    }
+  }
+  window.setInterval (blink, 500);
+</script>
 <html>
 
     <head>
@@ -16,6 +29,8 @@
 
     </head>
     <body>
+
+
        <div class="page-header">
 
           <!--{% if user.is_authenticated %}-->
@@ -26,7 +41,9 @@
            </a>
            <!--{% endif %}-->
 
-           <h1><a href="/">Blog on Django</a></h1>
+           <h1><a href="/"><div id="blogondjango">
+             Blog on Django
+           </div></a></h1>
        </div>
     <div class="content container">
         <div class="row">
